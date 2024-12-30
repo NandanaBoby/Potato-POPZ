@@ -1,0 +1,91 @@
+h1{
+
+    font-size:100px;
+    background-color: #8d988d;
+    padding-top: 5px;
+    background-size: 200px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    
+}
+p{
+    font-family: "Fuzzy Bubbles", serif;
+    text-align: left;
+    font-style: normal;
+    font-size: 20px;
+}
+body{
+    background-color: #ece6e3;
+}
+ul{
+    align-items: center;
+}
+h2{
+    background-color: 	#9aa0a3;
+    text-align: center;
+    font-family: "Lavishly Yours", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50 px;
+}
+.ingredients{
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.steps{
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.multimedia{
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.feedback-form{
+    font-family: "Coming Soon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    width: 20%;
+    height: 20%
+    ;
+}
+.cont {
+    display: flex;
+    align-items: center; /* Aligns the text and image vertically */
+    text-align: left;
+  }
+  
+.img {
+    width: 50%; /* Adjust the width of the image */
+    margin-right: 20px; /* Adds space between image and text */
+  }
+
+  button {
+    background-color: #c1b1a6; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow width and height adjustments */
+    font-size: 16px; /* Adjust font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Change cursor to pointer */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #cebfb6; /* Darker green on hover */
+}
+  
+
+  
+
+

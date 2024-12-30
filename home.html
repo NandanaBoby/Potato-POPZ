@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loaded Potato Poppers</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 style="font-family: 'Rubik Burned', cursive;">Loaded Potato Poppers</h1>
+    </header>
+    <div class="cont">
+        <p id="intro">Are you a potato lover like me? <br>
+        Then try this potato snack that made me fall in love with potatoes more. Even if you aren't one, trust me, one try and you'll be afloat (not literally). <br><br>
+        A plate of crispy loaded potato poppers, golden brown and crunchy on the outside with a bite taken out to show the creamy, cheesy mashed potato filling. The poppers are garnished with green onions and served with dipping sauces like ranch, spicy mayo, and garlic aioli on the side.</p>
+        <img src="https://www.thegunnysack.com/wp-content/uploads/2021/07/Loaded-Potato-Poppers-Recipe.jpg" alt="pops">
+    </div>
+    
+    <div class="ingredients">
+        <h2>Ingredients</h2>
+        <ul id="ingredients">
+            <li>4 medium-sized potatoes</li>  
+            <li>1/2 cup shredded cheddar cheese</li>
+            <li>1/4 cup cooked and crumbled bacon</li>
+            <li>1/4 cup chopped green onions</li>
+            <li>1/4 cup sour cream</li>
+            <li>1 teaspoon garlic powder</li>
+            <li>1/2 teaspoon smoked paprika</li>
+            <li>Salt and pepper to taste</li>
+            <li>1/2 cup panko breadcrumbs</li>
+            <li>2 large eggs (beaten)</li>
+            <li>1/2 cup all-purpose flour</li>
+            <li>Vegetable oil for frying</li>
+        </ul>
+    </div>
+
+    <!-- Steps Section -->
+    <div class="steps">
+        <h2>Steps</h2>
+        <ol>
+            <li><strong>Prepare the Potatoes:</strong>
+                <ul>
+                    <li>Peel the potatoes and cut them into chunks.</li>
+                    <li>Boil the potatoes in salted water until tender (about 15-20 minutes).</li>
+                    <li>Drain and mash the potatoes until smooth. Let cool slightly.</li>
+                </ul>
+            </li>
+            <li><strong>Mix the Filling:</strong>
+                <ul>
+                    <li>In a bowl, combine mashed potatoes, cheddar cheese, bacon, green onions, sour cream, garlic powder, smoked paprika, salt, and pepper.</li>
+                    <li>Mix thoroughly and adjust seasoning as needed.</li>
+                </ul>
+            </li>
+            <li><strong>Shape the Poppers:</strong>
+                <ul>
+                    <li>Roll the potato mixture into small, bite-sized balls (about 1 inch in diameter).</li>
+                    <li>Place them on a baking sheet lined with parchment paper and refrigerate for 30 minutes to firm up.</li>
+                </ul>
+            </li>
+            <li><strong>Prepare for Frying:</strong>
+                <ul>
+                    <li>Set up a breading station with three bowls: one for flour, one for beaten eggs, and one for panko breadcrumbs.</li>
+                    <li>Roll each potato ball in flour, then dip in egg, and coat with breadcrumbs.</li>
+                </ul>
+            </li>
+            <li><strong>Fry the Poppers:</strong>
+                <ul>
+                    <li>Heat vegetable oil in a deep pan or fryer to 350°F (175°C).</li>
+                    <li>Fry the potato poppers in batches until golden brown and crispy (about 2-3 minutes per batch).</li>
+                    <li>Remove and drain on a paper towel-lined plate.</li>
+                </ul>
+            </li>
+            <li><strong>Serve:</strong>
+                <ul>
+                    <li>Serve warm with dipping sauces like ranch, spicy mayo, or garlic aioli.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <h4>
+        Listen to your recipe!
+    </h4>
+    <audio controls>
+        <source src="audio/WhatsApp Audio 2024-12-30 at 7.03.06 PM.mp4" type="audio/mpeg">
+    </audio>
+
+   
+
+
+
+
+    <!-- Feedback Form Section -->
+    <div class="feedback-form">
+        <h2>Feedback</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="rating">Rate the Recipe:</label><br>
+            <input type="radio" id="rating1" name="rating" value="1"> 1
+            <input type="radio" id="rating2" name="rating" value="2"> 2
+            <input type="radio" id="rating3" name="rating" value="3"> 3
+            <input type="radio" id="rating4" name="rating" value="4"> 4
+            <input type="radio" id="rating5" name="rating" value="5"> 5<br><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
